@@ -1,0 +1,118 @@
+*{
+    margin:2px 5px;
+}
+   body{
+       font:serif bold 22px;
+       display:flex;
+       flex-direction: column;
+       text-align: center;
+  
+     
+   }
+   .header{
+       padding: 2rem;
+   color:white;
+
+   }
+   .main{
+
+       flex:1;
+       height:80vh;
+       
+   
+   }
+   .nav{
+       padding: 1rem;
+       margin: 0px;
+       background-color:white;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   
+   
+   
+   }
+
+   .content{
+       padding: 1rem;
+       background-color: aquamarine;
+       background: url("../img/ironman.jpg") no-repeat center center ;
+  
+       background-size:cover;
+       height:100vh;
+   }
+
+   .sid{
+       padding: 1rem;
+       background-color: #e1e1e1;
+
+   }
+   .footer{
+       padding: 1rem;
+       background-color: #a1a1a1;
+      
+   
+   }
+
+
+
+
+@media  (min-width:1001px){
+    .main{
+        display: flex;;
+        flex-direction: row;
+    }
+    .nav{
+        padding-top:3rem;
+        flex:1
+        
+    }
+    .navitem{
+        padding: 1rem 0;
+    }
+    .content{
+        padding-top:3rem;
+        flex:5;
+       width:100%;
+    }
+    .side{
+        padding-top:3rem;
+        flex:2;
+    } 
+}
+
+@media (min-width:541px) and (max-width:1000px){
+    .main{
+        padding:2px;
+        flex:1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;;
+    }
+    .nav{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:1rem 0;
+  
+      
+        
+    }
+    .navitem{
+        align-items: center;
+      
+
+    }
+    .content{
+        padding-top:3rem;
+      flex:4;
+     
+     background-size: cover;
+    }
+    .side{
+        padding-top:3rem;
+    flex:1;
+    
+    } 
+}
