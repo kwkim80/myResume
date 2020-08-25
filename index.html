@@ -345,13 +345,60 @@
 
           <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link active p-3 tabAlink" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Web <span class="d-none d-sm-inline-block">Application</span>  (8)</a>
-              <a class="nav-item nav-link p-3  tabAlink" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Mobile <span class="d-none d-sm-inline-block">Application</span> (6)</a>
-              <a class="nav-item nav-link p-3  tabAlink" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Window <span class="d-none d-sm-inline-block">Application</span> (1)</a>
+              <a class="nav-item nav-link p-3   active  tabAlink" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Mobile <span class="d-none d-lg-inline-block">Application</span> (8)</a>
+              <a class="nav-item nav-link p-3 tabAlink" id="nav-machine-tab" data-toggle="tab" href="#nav-machine" role="tab" aria-controls="nav-machine" aria-selected="false">Big Data  <span class="d-none d-lg-inline-block">& Machine Learning</span> (4)</a>
+              <a class="nav-item nav-link p-3 tabAlink" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Web <span class="d-none d-lg-inline-block">Application</span>  (8)</a>
+              <a class="nav-item nav-link p-3  tabAlink" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Window <span class="d-none d-lg-inline-block">Application</span> (1)</a>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="tab-pane fade " id="nav-machine" role="tabpanel" aria-labelledby="nav-machine-tab">
+
+              <div class="card-deck py-3 row">
+                <div class="p-2 col-6 col-md-4 col-lg-3 pitem">
+                  <img class="card-img-top img-thumbnail" src="img/LendingClub.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lending-Club </h5>
+                    <p class="card-text"> 
+                      Given historical data on loans given out with information on whether or not the borrower defaulted (charge-off), can I build a model that can predict wether or nor a borrower will pay back their loan?
+                   </p>
+                    <p class="card-text text-right ">
+                      <a href="portfolio_details.html#p_lending" class="plink"><button type="button" class="btn btn-outline-primary">Detail</button></a></p>
+                  </div>
+                </div>
+                <div class="p-2 col-6 col-md-4 col-lg-3 pitem">
+                  <img class="card-img-top img-thumbnail " src="img/Titanic.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Breast Cancer</h5>
+                    <p class="card-text">I will be using a subset of the Breast Cancer Wisconsin (Diagnostic) Data DataSet obtained from Kaggle.</p>
+                    <p class="card-text text-right">
+                      <a href="portfolio_details.html#p_cancer" class="plink"><button type="button" class="btn btn-outline-primary">Detail</button></a></p>
+                  </div>
+                </div>
+                <div class=" p-2 col-6 col-md-4 col-lg-3 pitem">
+                  <img class="card-img-top img-thumbnail" src="img/Cancer.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Titanic</h5>
+                    <p class="card-text">The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.</p>
+                    <p class="card-text text-right">
+                      <a href="portfolio_details.html#p_titanic" class="plink"><button type="button" class="btn btn-outline-primary">Detail</button></a></p>
+                  </div>
+                </div>
+                <div class=" p-2 col-6 col-md-4 col-lg-3 pitem">
+                  <img class="card-img-top img-thumbnail" src="img/Covid.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Covid-19 Geo ploting</h5>
+                    <p class="card-text">I took the dataset from Google about Covid-19 and I displyed the data by using Geo ploting.</p>
+                    <p class="card-text text-right">
+                      <a href="portfolio_details.html#p_covid" class="plink"><button type="button" class="btn btn-outline-primary">Detail</button></a></p>
+                  </div>
+                </div>
+               
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
               <div class="card-deck py-3 row px-3">
                 <div class="p-2 col-6 col-md-4 col-lg-3 pitem">
@@ -431,37 +478,43 @@
     
 
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
               <div class="card-deck row py-3 ">
-                <div class="col-4  col-lg-2 text-center">
-                  <a href="portfolio_details.html#p_bank" class="plink">
-                    <img src="img/bank.png" class="card-img-top  img-thumbnail" alt="...">
-                    
-                  </a>
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
+                  <a href="portfolio_details.html#p_movie" class="plink"><img src="img/movie.png" class="card-img-top  img-thumbnail" alt="..."></a>
+                  <div >Movie_TV App</div>
+                </div>
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
+                  <a href="portfolio_details.html#p_heart" class="plink"><img src="img/heart.png" class="card-img-top  img-thumbnail" alt="..."></a>
+                  <div >Heart Tracer App(with UOHI)</div>
+                </div>
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
+                  <a href="portfolio_details.html#p_bank" class="plink"><img src="img/bank.png" class="card-img-top  img-thumbnail" alt="..."></a>
                   <div >Private Bank App</div>
                 </div>
-                <div class="col-4 col-lg-2 text-center">
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
                    <a href="portfolio_details.html#p_memo" class="plink"><img src="img/memo.jpg" class="card-img-top  img-thumbnail" alt="..."></a>
                     <div >Memo App </div>
                 </div>
     
-                <div class="col-4 col-lg-2 text-center">
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
                   <a href="portfolio_details.html#p_voca" class="plink"><img src="img/voca.png" class="card-img-top  img-thumbnail" alt="..."></a>
                   <div>Voca App</div>
                 </div>
                
-                <div class="col-4  col-lg-2 text-center">
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
                   <a href="portfolio_details.html#p_contact" class="plink"><img src="img/contact.png" class="card-img-top  img-thumbnail" alt="..."></a>
                   <div>Contact App</div>
                 </div>
-                <div class="col-4  col-lg-2 text-center">
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
                   <a href="portfolio_details.html#p_dust" class="plink"><img src="img/microdust.png" class="card-img-top  img-thumbnail" alt="..."></a>
                   <div >Micro Dust App </div>
                 </div>
-                <div class="col-4 col-lg-2 text-center">
+                <div class="p-2 col-6 col-md-4 col-lg-3 text-center">
                   <a href="portfolio_details.html#p_chat" class="plink"><img src="img/chat.png" class="card-img-top  img-thumbnail" alt="..."></a>
                     <div>Chatting App</div>
                 </div>
+
               </div>
 
             </div>
