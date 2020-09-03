@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
 function title_animate_text(){
 	var animateSpan	= $('.title_animation_text_word');
 		animateSpan.typed({
-			strings: ["Full stack Developer", "Web Developer","Application Developer","Freelancer"],
+			strings: ["Full stack Developer", "Web Developer","Application Developer", "Data Scientist","Freelancer"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
